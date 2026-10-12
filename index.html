@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>KaBasket — Good food. More life.</title>
+<meta name="description" content="Your market favourites and household essentials, delivered. Browse without an account, pay on delivery, and enjoy member savings with KaBasket.">
+<meta name="theme-color" content="#123d2d">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23123d2d'/%3E%3Cpath d='M14 27h36l-5 23H19zM23 27l9-15 9 15' fill='none' stroke='%23f5d34d' stroke-width='5' stroke-linejoin='round'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="offer-bar"><span>A little extra for your home.</span> <button data-account="register">Join or log in for <strong>5% off groceries</strong></button><span class="offer-star" aria-hidden="true">✳</span></div>
+<header class="header wrap">
+<a class="wordmark" href="#" aria-label="KaBasket home"><svg viewBox="0 0 32 32" aria-hidden="true"><path d="M4 13h24l-4 15H8zM10 13l6-10 6 10M12 18v5m8-5v5"/></svg>ka<span>basket</span><sup>●</sup></a>
+<nav aria-label="Main navigation"><a href="#market">The market</a><a href="#how">How it works</a><a href="#perks">Member perks</a></nav>
+<div class="header-actions"><button class="login" data-account="login">Log in</button><a class="button dark small" href="shop.html">Shop now <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 13H6L5 8Zm3 0V6a4 4 0 0 1 8 0v2"/></svg></a></div>
+</header>
+<main id="main">
+<section class="hero wrap">
+<div class="hero-copy">
+<p class="eyebrow"><span class="short-rule"></span> YOUR EVERYDAY MARKET, REIMAGINED</p>
+<h1>Good food.<br>Less hustle.<br><em>More life.</em></h1>
+<p class="hero-description">From matooke for supper to soap for the sink. Get your home’s everyday essentials delivered, and keep your day for you.</p>
+<div class="hero-actions"><a href="shop.html" class="button dark">Let’s fill your basket <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l-1 13H6L5 8Zm3 0V6a4 4 0 0 1 8 0v2"/></svg></a><span>No account needed.<br><b>Just good groceries.</b></span></div>
+<div class="hero-proof"><span><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="6" width="18" height="13" rx="2"/><path d="M3 10h18m-5 5h3"/></svg> Pay on delivery</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s8-7 8-12A8 8 0 0 0 4 9c0 5 8 12 8 12Z"/><circle cx="12" cy="9" r="2.5"/></svg> Made for Ugandan homes</span></div>
+</div>
+<div class="hero-visual">
+<div class="photo-frame"><img src="hero.webp" alt="Fresh matooke, tomatoes, avocados, onions and greens arranged in a woven market basket" width="1536" height="1024" fetchpriority="high"><div class="photo-bottom"><span>THE GOOD STUFF.<br>ALL IN ONE BASKET.</span><span class="image-index">01 / EVERYDAY FRESH</span></div></div>
+<div class="fresh-stamp" aria-label="Fresh picks, happy homes"><span>FRESH PICKS</span><b>✳</b><span>HAPPY HOMES</span></div>
+<div class="basket-note"><span class="note-icon" aria-hidden="true">✓</span><div><b>Your market trip? Sorted.</b><span>You choose. We bring it home.</span></div></div>
+</div>
+</section>
+<div class="ticker" aria-label="Fresh produce, pantry favourites, home essentials, delivered to your door"><div class="ticker-track" aria-hidden="true"><span>Matooke for supper</span><i>✳</i><span>Fruit for the little ones</span><i>✳</i><span>A happier home</span><i>✳</i><span>One less market trip</span><i>✳</i><span>Matooke for supper</span><i>✳</i><span>Fruit for the little ones</span><i>✳</i><span>A happier home</span><i>✳</i><span>One less market trip</span><i>✳</i></div><button class="motion-toggle" aria-label="Pause moving text" title="Pause animation">Ⅱ</button></div>
+<section class="market wrap section" id="market">
+<div class="section-heading reveal"><div><p class="eyebrow">A LITTLE OF EVERYTHING YOU NEED</p><h2>What’s on your list?</h2></div><p>Market favourites. Pantry regulars.<br>And the things that keep home running.</p></div>
+<div class="category-grid reveal">
+<button class="category veg" data-category="vegetables"><img class="category-photo" src="images/products/fresh-tomatoes.webp" alt="Fresh tomatoes" width="480" height="480" loading="lazy"><span class="category-top">01 <span>FRESH & EVERYDAY</span></span><h3>Vegetables<br>& greens</h3><p>Tomatoes, onions, nakati & more</p><span class="category-link">Browse vegetables <span>+</span></span></button>
+<button class="category fruit" data-category="fruit"><img class="category-photo" src="images/products/mangoes.webp" alt="Whole and sliced mangoes" width="480" height="480" loading="lazy"><span class="category-top">02 <span>A LITTLE SUNSHINE</span></span><h3>Fruit worth<br>reaching for</h3><p>Mangoes, bananas & avocados</p><span class="category-link">Browse fruit <span>+</span></span></button>
+<button class="category pantry" data-category="staples"><img class="category-photo" src="images/products/matooke.webp" alt="Green matooke cooking bananas" width="480" height="480" loading="lazy"><span class="category-top">03 <span>THE HEART OF SUPPER</span></span><h3>Matooke<br>& pantry</h3><p>Rice, flour, beans & cooking oil</p><span class="category-link">Browse staples <span>+</span></span></button>
+<button class="category home" data-category="household"><img class="category-photo" src="images/products/laundry-bar-soap.webp" alt="Laundry bar soap" width="480" height="480" loading="lazy"><span class="category-top">04 <span>HOME, TAKEN CARE OF</span></span><h3>A clean<br>fresh start</h3><p>Soap, detergent & home essentials</p><span class="category-link">Browse household <span>+</span></span></button>
+</div>
+<p class="image-caption-note">Representative product images. Explore the market to see every item.</p><div class="guest-note"><span><b>Come as you are.</b> Shopping doesn’t need a sign-up.</span><button class="text-button" data-category="all">Explore the whole market</button></div>
+</section>
+<section class="membership wrap reveal" id="perks">
+<div class="membership-copy"><p class="eyebrow">THE KABASKET CLUB</p><h2>Same basket.<br><em>A little less to pay.</em></h2><p>Create a free account or log in to enjoy <strong>5% off your groceries.</strong> Good habits deserve a little something back.</p><div class="membership-actions"><button class="button dark" data-account="register">Join & save 5%</button><button class="text-button" data-account="login">Already a member? Log in</button></div><small>Member offer applies to groceries. Delivery fees and household cleaning products excluded.</small></div>
+<div class="membership-photo"><img src="membership.webp" alt="A colourful selection of everyday groceries on a golden yellow table" width="1536" height="1024" loading="lazy"><div class="saving-ticket"><span>A LITTLE THANK YOU</span><b>5%<em> off</em></b><span>FOR OUR SIGNED-IN SHOPPERS</span></div></div>
+</section>
+<section class="how wrap section" id="how"><div class="section-heading reveal"><div><p class="eyebrow">LESS RUNNING AROUND. MORE BEING HOME.</p><h2>From our basket to your door.</h2></div></div><div class="delivery-layout"><figure class="delivery-photo reveal"><img src="delivery.webp" alt="A friendly delivery rider holding a grocery bag beside his motorcycle outside a home" width="1536" height="1024" loading="lazy"><figcaption>THE LAST STOP? YOUR DOORSTEP.</figcaption></figure><div class="steps reveal"><article><span class="step-number">01</span><div><h3>Pick your favourites</h3><p>Fill your basket with the food and essentials your household loves.</p></div></article><article><span class="step-number">02</span><div><h3>Tell us where home is</h3><p>Add your delivery area, phone number and a nearby landmark.</p></div></article><article><span class="step-number">03</span><div><h3>Get it. Then pay.</h3><p>We bring your order to your door. You pay when it arrives.</p></div></article></div></div></section>
+<section class="faq wrap"><div><p class="eyebrow">GOOD TO KNOW</p><h2>A few little details.</h2></div><div class="faq-list"><details><summary>Do I need an account to shop?<span>+</span></summary><p>No. You can browse and shop as a guest. A free account is optional and gives you access to the member grocery discount.</p></details><details><summary>How does the 5% discount work?<span>+</span></summary><p>The proposed member offer gives signed-in customers 5% off the grocery subtotal. Household cleaning products and delivery charges are excluded. You’ll see any eligible savings before confirming an order.</p></details><details><summary>Can I order for delivery right now?<span>+</span></summary><p>Not yet. We’re preparing the store. You can explore this first look at our market, but orders, account registration and deliveries are not open yet.</p></details><details><summary>What if an item is unavailable?<span>+</span></summary><p>Our plan is to contact you before making a substitution. You choose whether you want an alternative or prefer to leave the item out.</p></details></div></section>
+</main>
+<footer><div class="wrap footer-top"><a class="wordmark" href="#">ka<span>basket</span><sup>●</sup></a><p>A full basket.<br><em>A little more time for life.</em></p><a class="button yellow" href="shop.html">Explore the market</a></div><div class="wrap footer-bottom"><span>© <span id="year">2026</span> KaBasket · Built around home.</span><span>Ugandan essentials. Everyday ease.</span></div></footer>
+<dialog id="account-dialog" class="account-dialog" aria-labelledby="account-title"><button class="close" data-close aria-label="Close member information">×</button><p class="eyebrow">THE KABASKET CLUB</p><span class="account-discount">5% <em>off</em></span><h2 id="account-title">A little more in your basket.</h2><p>Free to join. Save on groceries when you shop signed in.</p><div class="launch-notice"><b id="account-notice">Membership is coming with our launch.</b><p>Account registration and login aren’t open yet. For now, take a look around—no account needed.</p></div><button class="button dark" id="account-browse">Browse the market</button><small>Grocery subtotal only. Excludes delivery and household cleaning products.</small></dialog>
+</body></html>
